@@ -1,0 +1,35 @@
+.filter {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px 40px;
+
+  &__btn {
+    padding: 10px 20px;
+    position: relative;
+    background: transparent;
+    border: 1px solid transparent;
+    font-family: inherit;
+    color: var(--text-accent);
+    font-size: var(--fs-default);
+    cursor: pointer;
+    transition: var(--transition);
+
+    & span {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: var(--fs-x-small);
+    }
+  }
+
+  &__btn:focus {
+    color: white;
+    border-bottom: 1px solid white;
+  }
+
+  &__btn:hover {
+    color: white;
+    border-bottom: 1px solid white;
+  }
+}

@@ -1,3 +1,6 @@
+import { react, person, computer, commingsoon } from '../assets'
+
+
 export const Navlinks = [
     {
         id: 1,
@@ -6,7 +9,7 @@ export const Navlinks = [
     },
     {
         id: 2,
-        path: '/about',
+        path: '#about',
         title: "About"
     },
     {
@@ -19,4 +22,108 @@ export const Navlinks = [
         path: '/contact',
         title: "Contact"
     }
+]
+
+export const Expertise = [
+    {
+        id: 1,
+        title: "Sofware Development",
+        description: "Coding things from scratch, and enjoy bringing ideas to life in the browser.",
+        icon: computer
+    },
+    {
+        id: 2,
+        title: "Frontend & Backend",
+        description: "Experience building websites and web applications using React, Next, and more.",
+        icon: react
+    },
+    {
+        id: 3,
+        title: "Master of  Development",
+        description: "Experienced, self-taught, and always learning. Navigating the vast world of web development.",
+        icon: person
+    }
+];
+
+
+export const Categories = [
+    {
+        id: 1,
+        title: "All",
+        count: 7,
+    },
+    {
+        id: 2,
+        title: "Frontend",
+        count: 4,
+    },
+    {
+        id: 3,
+        title: "Backend",
+        count: 1,
+    },
+    {
+        id: 4,
+        title: "Fullstack",
+        count: 2,
+    },
+]
+
+export const Projects = [
+    {
+        id: 1,
+        title: "Project 1",
+        category: ["web-development", "front-end", "full0stack"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        featured: false,
+        image: commingsoon,
+    },
+    {
+        id: 2,
+        title: "Project 1",
+        category: ["web-development", "front-end", "full0stack"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        featured: false,
+        image: commingsoon,
+    },
+    {
+        id: 3,
+        title: "Project 1",
+        category: ["web-development", "front-end", "full0stack"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        featured: false,
+        image: commingsoon,
+    },
+    {
+        id: 4,
+        title: "Project 1",
+        category: ["web-development", "front-end", "full0stack"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        featured: false,
+        image: commingsoon,
+    },
+    {
+        id: 5,
+        title: "Project 1",
+        category: ["web-development", "front-end", "full0stack"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        featured: false,
+        image: commingsoon,
+    },
+    {
+        id: 6,
+        title: "Project 1",
+        category: ["web-development", "front-end", "full0stack"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        featured: false,
+        image: commingsoon,
+    },
+    {
+        id: 7,
+        title: "Project 1",
+        category: ["web-development", "front-end", "full0stack"],
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        featured: true,
+        image: commingsoon,
+    },
 ]

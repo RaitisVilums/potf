@@ -4,7 +4,7 @@
   --fs-x-small: 12px;
   --fs-small: 14px;
   --fs-default: 16px;
-  --fs-medium: 32px;
+  --fs-medium: 20px;
   --fs-big: 46px;
 
   --fw-extra-bold: 800;
@@ -16,9 +16,12 @@
   --text: #e9e1ea;
   --text-accent: rgb(187, 175, 175);
   --background: #171118;
+  --background-item: #352e36;
   --primary-button: #552fa7;
   --secondary-button: #f0dbf5;
   --accent: #912fa7;
+
+  --box-shadow-default : box-shadow: 1px -1px 18px -2px rgba(0,0,0,0.8);
 
   --transition: all 0.3s ease-in-out;
 }
@@ -69,4 +72,13 @@ a {
 
 .relative {
   position: relative;
+}
+
+.heading {
+  font-size: 60px;
+  margin-left: 50px;
+}
+.heading-sub {
+  font-size: 40px;
+  text-transform: uppercase;
 }

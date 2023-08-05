@@ -1,0 +1,130 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(250px, 300px));
+    place-content: center;
+    gap: 20px;
+    padding: 60px 60px 0 60px;
+  }
+
+  &__item {
+    padding: 30px 40px;
+    background: var(--background-item);
+    border-radius: 15px;
+    box-shadow: var(--box-shadow-default);
+    font-weight: var(--fw-light);
+    position: relative;
+
+    & h3 {
+      color: var(--text-accent);
+      font-size: var(--fs-default);
+    }
+  }
+
+  &__item--title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+
+    & h2 {
+      font-size: var(--fs-medium);
+    }
+  }
+  &__item--image {
+    fill: var(--text);
+  }
+}
+.lane {
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: var(--accent);
+  left: 21px;
+  bottom: 30px;
+}
+.object {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  border-radius: 50%;
+  background: var(--accent);
+  left: 17px;
+  top: 105px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+
+  &__featured {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+  }
+
+  &__featured--image {
+    flex: 1;
+    max-width: 50%;
+
+    & img {
+      width: 100%;
+      height: auto;
+      border-radius: 15px;
+      object-fit: fill;
+    }
+  }
+
+  &__featured--content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    & p {
+      color: var(--text-accent);
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  &__featured--link {
+    font-size: var(--fs-medium);
+    padding: 10px 20px;
+    border: 1px solid var(--text);
+    cursor: pointer;
+    transition: var(--transition);
+    border-radius: 5px;
+  }
+
+  &__featured--link:hover {
+    background: var(--accent);
+    border: 1px solid var(--accent);
+  }
+
+  &__grid {
+    padding: 20px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, minmax(250px, 350px));
+    grid-template-rows: minmax(200px, 300px);
+    grid-auto-flow: dense;
+    gap: 30px 40px;
+
+    & div:nth-child(4) {
+      grid-column: span 2;
+    }
+
+    & div:last-child {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+  }
+}
