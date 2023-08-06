@@ -127,3 +127,36 @@ export const Projects = [
         image: commingsoon,
     },
 ]
+
+export const Experience = [
+    {
+        id: 1,
+        title: "Frontend Developer",
+        company: "Maratolli SIA",
+        date: "2022-2023",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        icon: "CompanyIcon",
+        address: "Riga, Latvia",
+        techStack: ["React", "SCSS", "Firebase", "Next"]
+    },
+    {
+        id: 2,
+        title: "Frontend Developer",
+        company: "Maratolli SIA",
+        date: "2022-2023",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        icon: "CompanyIcon",
+        address: "Riga, Latvia",
+        techStack: ["React", "SCSS", "Firebase", "Next"]
+    },
+    {
+        id: 3,
+        title: "Frontend Developer",
+        company: "Maratolli SIA",
+        date: "2022-2023",
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+        icon: "CompanyIcon",
+        address: "Riga, Latvia",
+        techStack: ["React", "SCSS", "Firebase", "Next"]
+    },
+]

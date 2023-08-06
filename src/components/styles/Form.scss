@@ -1,0 +1,14 @@
+.form {
+  background: var(--background-item);
+  padding: 20px;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

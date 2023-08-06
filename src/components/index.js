@@ -5,5 +5,7 @@ import StarsCanvas from "./Stars";
 import TypeWriter from "./TypeWriter";
 import Filter from "./Filter";
 import ProjectsItem from './ProjectsItem'
+import ExperienceItem from './ExperienceItem'
+import Form from "./Form";
 
-export { Navigation, ComputerCanvas, CanvasLoader, StarsCanvas, TypeWriter, Filter, ProjectsItem }
+export { Navigation, ComputerCanvas, CanvasLoader, StarsCanvas, TypeWriter, Filter, ProjectsItem, ExperienceItem, Form }
