@@ -5,10 +5,56 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 100%;
 
   &__group {
     display: flex;
     flex-direction: column;
     gap: 10px;
+
+    & label {
+      cursor: pointer;
+    }
   }
+
+  &__input {
+    padding: 10px;
+    font-size: var(--fs-default);
+    font-family: inherit;
+    background: transparent;
+    color: var(--text);
+    inset: 0;
+    border: 1px solid var(--text);
+    border-radius: 10px;
+    resize: none;
+    transition: var(--transition);
+
+    &:focus {
+      outline: none;
+      border: 1px solid var(--accent);
+      inset: 0;
+    }
+  }
+
+  &__btn {
+    padding: 12px;
+    background: transparent;
+    border: 2px solid var(--text);
+    border-radius: 10px;
+    font-size: var(--fs-default);
+    text-transform: uppercase;
+    color: var(--text);
+    font-weight: var(--fw-medium);
+    cursor: pointer;
+    transition: var(--transition);
+
+    &:hover {
+      background: var(--accent);
+      border: 2px solid var(--accent);
+    }
+  }
+}
+
+#message {
+  height: 200px;
 }

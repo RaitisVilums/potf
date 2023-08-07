@@ -52,7 +52,9 @@ const Form = () => {
           onChange={handleChange}
         />
       </div>
-      <button type="submit">Submit</button>
+      <button className="form__btn" type="submit">
+        Submit
+      </button>
     </form>
   );
 };

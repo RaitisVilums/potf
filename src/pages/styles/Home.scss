@@ -144,4 +144,13 @@
   padding: 60px 60px 0 60px;
   display: flex;
   justify-content: space-between;
+  gap: 20px;
+
+  &__form {
+    flex: 0 0 40%;
+  }
+
+  &__blocks {
+    flex: 1;
+  }
 }
