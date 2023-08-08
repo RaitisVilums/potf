@@ -1,0 +1,20 @@
+.contacts-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__link {
+    cursor: pointer;
+    transition: var(--transition);
+    border: 2px solid var(--text);
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

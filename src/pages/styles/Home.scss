@@ -152,5 +152,9 @@
 
   &__blocks {
     flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 300px));
+    place-content: center;
+    grid-template-rows: repeat(2, minmax(250px, 300px));
   }
 }

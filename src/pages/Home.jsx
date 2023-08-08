@@ -1,6 +1,18 @@
 import React from "react";
-import { Expertise, Categories, Projects, Experience } from "../constants";
-import { ExperienceItem, Filter, ProjectsItem, Form } from "../components";
+import {
+  Expertise,
+  Categories,
+  Projects,
+  Experience,
+  ContactIcons,
+} from "../constants";
+import {
+  ExperienceItem,
+  Filter,
+  ProjectsItem,
+  Form,
+  ContactsItem,
+} from "../components";
 import { Link } from "react-router-dom";
 
 import "./styles/Home.scss";
@@ -99,10 +111,9 @@ const Home = () => {
               these DIVS are placeholders for now
               div in reality should rotate and show the contact info
             */}
-            <div>Email</div>
-            <div>Whatsapp</div>
-            <div>Github</div>
-            <div>Linkedin</div>
+            {ContactIcons.map((contact) => (
+              <ContactsItem key={contact.id} contact={contact} />
+            ))}
           </div>
         </div>
       </section>

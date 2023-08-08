@@ -23,7 +23,7 @@
     font-family: inherit;
     background: transparent;
     color: var(--text);
-    inset: 0;
+    outline: none;
     border: 1px solid var(--text);
     border-radius: 10px;
     resize: none;
@@ -32,7 +32,6 @@
     &:focus {
       outline: none;
       border: 1px solid var(--accent);
-      inset: 0;
     }
   }
 
