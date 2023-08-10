@@ -7,6 +7,7 @@ import email from "./email-1-svgrepo-com.svg";
 import github from "./github-svgrepo-com.svg";
 import cv from "./curriculum-with-picture-svgrepo-com.svg";
 import whatsapp from "./whatsapp-svgrepo-com.svg";
+import logoBlack from "./logo-black.png";
 export {
   logo,
   react,
@@ -17,4 +18,5 @@ export {
   github,
   cv,
   whatsapp,
+  logoBlack,
 };

@@ -1,18 +1,6 @@
 import React from "react";
-import {
-  Expertise,
-  Categories,
-  Projects,
-  Experience,
-  ContactIcons,
-} from "../constants";
-import {
-  ExperienceItem,
-  Filter,
-  ProjectsItem,
-  Form,
-  ContactsItem,
-} from "../components";
+import { Expertise, Categories, Projects, Experience } from "../constants";
+import { ExperienceItem, Filter, ProjectsItem, Form } from "../components";
 import { Link } from "react-router-dom";
 
 import "./styles/Home.scss";
@@ -81,39 +69,32 @@ const Home = () => {
             <Link className="projects__featured--link">Check it out</Link>
           </div>
         </div>
-
         <Filter categories={Categories} handleClick={filterProjects} />
-
         <div className="projects__grid">
           {Projects.map((project) => (
             <ProjectsItem key={project.id} project={project} />
           ))}
         </div>
       </section>
+
       <section>
         <h1 className="heading">MyExperience</h1>
         <div className="experience">
           {Experience.map((exp) => (
-            <ExperienceItem key={exp.id} experience={exp} />
+            <ExperienceItem key={exp} experience={exp} />
           ))}
         </div>
       </section>
 
       <section>
         <h1 className="heading">MyContacts</h1>
-
         <div className="contacts">
           <div className="contacts__form">
             <Form />
           </div>
           <div className="contacts__blocks">
-            {/* CREATE A 3D images for it
-              these DIVS are placeholders for now
-              div in reality should rotate and show the contact info
-            */}
-            {ContactIcons.map((contact) => (
-              <ContactsItem key={contact.id} contact={contact} />
-            ))}
+            <h1 className="heading">Have a Project?</h1>
+            <h1 className="heading">Let's Work Together!</h1>
           </div>
         </div>
       </section>

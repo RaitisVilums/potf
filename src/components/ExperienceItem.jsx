@@ -5,7 +5,7 @@ import { logo } from "../assets";
 
 // ! Create a global function that adds icons to techStack
 // ! add location icon and Plus icon
-const ExperienceItem = ({ experience }) => {
+const ExperienceItem = ({ experience, key }) => {
   const [show, setShow] = useState(false);
 
   const handleClick = () => {
@@ -13,7 +13,7 @@ const ExperienceItem = ({ experience }) => {
   };
   return (
     <>
-      <div className="experience-item">
+      <div className="experience-item" key={key}>
         <div className="experience-item__title">
           <h1>
             {experience.company} - {experience.title}
