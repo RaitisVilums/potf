@@ -1,4 +1,28 @@
 .footer {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 60px;
+  gap: 20px;
+
+  &__navigation {
+    display: flex;
+    padding: 40px 200px;
+    gap: 20px;
+    color: var(--text-accent);
+    border-top: 1px solid var(--text-accent);
+    border-bottom: 1px solid var(--text-accent);
+  }
+
+  &__contacts {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    & div {
+      display: flex;
+      gap: 10px;
+    }
+  }
 }

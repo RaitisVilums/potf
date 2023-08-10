@@ -184,18 +184,21 @@ export const Experience = [
 export const ContactIcons = [
   {
     id: 1,
-    icon: email,
+    title: "Github",
+    icon: github,
+    link: "https://github.com/RaitisVilums",
   },
   {
     id: 2,
-    icon: github,
+    title: "Email",
+    icon: email,
+    link: "mailto:rvilums22@gmail.com",
   },
+
   {
     id: 3,
-    icon: cv,
-  },
-  {
-    id: 4,
+    title: "Whatsapp",
     icon: whatsapp,
+    link: "https://wa.me/26406100",
   },
 ];

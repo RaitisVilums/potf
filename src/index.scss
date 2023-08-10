@@ -15,8 +15,9 @@
 
   --text: #e9e1ea;
   --text-accent: rgb(187, 175, 175);
-  --background: #15212d;
-  --background-item: #352e36;
+  --background: 
+  #060918 ;
+  --background-item: transparent;
   --primary-button: #552fa7;
   --secondary-button: #f0dbf5;
   --accent: #912fa7;
@@ -38,6 +39,9 @@ html {
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
+section{
+  padding-top: 200px;
+}
 
 body {
   background: var(--background);
@@ -51,9 +55,10 @@ a {
 }
 
 footer {
-  background: var(--accent);
+  border-top: 1px solid var(--text-accent);
   width: 100%;
   height: auto;
+
 }
 
 .layout {
@@ -78,6 +83,7 @@ footer {
 
 .relative {
   position: relative;
+
 }
 
 .heading {
@@ -87,5 +93,4 @@ footer {
 .heading-sub {
   font-size: 40px;
   text-transform: uppercase;
- 
 }

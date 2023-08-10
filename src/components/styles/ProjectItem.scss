@@ -2,9 +2,10 @@
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  border-radius: 15px;
+  border-radius: 5px;
   background: var(--background-item);
   box-shadow: var(--box-shadow-default);
+  border: 1px solid var(--text-accent);
   transition: var(--transition);
 
   &__image {

@@ -14,7 +14,9 @@
   &__item {
     padding: 30px 40px;
     background: var(--background-item);
-    border-radius: 15px;
+
+    border: 1px solid var(--text-accent);
+    border-radius: 5px;
     box-shadow: var(--box-shadow-default);
     font-weight: var(--fw-light);
     position: relative;
@@ -141,7 +143,7 @@
 
 .contacts {
   max-width: 1440px;
-  padding: 60px 60px 0 60px;
+  padding: 60px 60px 200px 60px;
   display: flex;
   justify-content: space-between;
 

@@ -26,7 +26,7 @@ const Home = () => {
   return (
     <main>
       <section className="about" id="about">
-        <h1 className="heading">MySelf</h1>
+        <h1 className="heading">ABOUT</h1>
         <div className="about__grid">
           {Expertise.map((block) => (
             <div className="about__item" key={block.id}>
@@ -49,7 +49,7 @@ const Home = () => {
       </section>
 
       <section className="projects">
-        <h1 className="heading">MyWork</h1>
+        <h1 className="heading">WORK</h1>
         <div className="projects__featured">
           <div className="projects__featured--image">
             <img src={featuredProject[0].image} alt="featured_project" />
@@ -78,7 +78,7 @@ const Home = () => {
       </section>
 
       <section>
-        <h1 className="heading">MyExperience</h1>
+        <h1 className="heading">EXPERIENCE</h1>
         <div className="experience">
           {Experience.map((exp) => (
             <ExperienceItem key={exp} experience={exp} />
@@ -87,7 +87,7 @@ const Home = () => {
       </section>
 
       <section>
-        <h1 className="heading">MyContacts</h1>
+        <h1 className="heading">CONTACTS</h1>
         <div className="contacts">
           <div className="contacts__form">
             <Form />
