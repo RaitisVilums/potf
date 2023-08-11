@@ -10,7 +10,7 @@ const Header = () => {
   const navigateToAbout = () => {};
 
   return (
-    <header className="w-full f-col relative">
+    <header className="w-full f-col relative" id="#">
       <Navigation />
       <div className="header--container">
         <div className="header--container__title">

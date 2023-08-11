@@ -12,7 +12,7 @@ import {
 export const Navlinks = [
   {
     id: 1,
-    path: "/",
+    path: "#",
     title: "Home",
   },
   {
@@ -22,13 +22,13 @@ export const Navlinks = [
   },
   {
     id: 3,
-    path: "/projects",
+    path: "#projects",
     title: "Projects",
   },
   {
     id: 4,
-    path: "/contact",
-    title: "Contact",
+    path: "#contacts",
+    title: "Contacts",
   },
 ];
 

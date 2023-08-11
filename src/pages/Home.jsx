@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="projects">
+      <section className="projects" id="projects">
         <h1 className="heading">WORK</h1>
         <div className="projects__featured">
           <div className="projects__featured--image">
@@ -86,7 +86,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      <section id="contacts">
         <h1 className="heading">CONTACTS</h1>
         <div className="contacts">
           <div className="contacts__form">
